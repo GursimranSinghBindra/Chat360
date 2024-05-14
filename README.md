@@ -11,11 +11,15 @@ Simulates log ingestion using mock APIs (replace with real APIs for production)
 Stores logs (not in separate source-based files in this example)
 Queries logs based on level, message content (contains), and source
 Stores filtered query results in a separate file
+
+
 **How to Use:**
 
 Clone or download the repository.
 Open the project in a code editor/IDE (e.g., IntelliJ IDEA, Eclipse).
 Run the QueryInterface class (right-click and select "Run").
+
+
 **Identified Issues:**
 
 Uses mock APIs, needs real API integration
@@ -23,6 +27,8 @@ Limited storage (no source-based separation)
 Basic querying (can be enhanced with regular expressions)
 Command-line interface (consider building a web UI)
 Limited error handling
+
+
 **Further Development:**
 
 Integrate real APIs for log ingestion
